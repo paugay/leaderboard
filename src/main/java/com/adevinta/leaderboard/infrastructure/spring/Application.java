@@ -1,13 +1,14 @@
-package com.adevinta.leaderboard;
+package com.adevinta.leaderboard.infrastructure.spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LeaderboardApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LeaderboardApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
+
 
 }
